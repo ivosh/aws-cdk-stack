@@ -1,0 +1,38 @@
+{
+  "name": "book-store-aws-cdk",
+  "version": "1.0.0",
+  "description": "Book Store on AWS CDK Stack",
+  "bin": {
+    "book-store": "bin/book-store.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivosh/book-store-aws-cdk.git"
+  },
+  "author": "Ivo Raisr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivosh/book-store-aws-cdk/issues"
+  },
+  "homepage": "https://github.com/ivosh/book-store-aws-cdk#readme",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.1.0",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.16"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/node": "16.11.12",
+    "jest": "^27.4.4",
+    "ts-jest": "^27.1.1",
+    "aws-cdk": "2.1.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.3"
+  }
+}
